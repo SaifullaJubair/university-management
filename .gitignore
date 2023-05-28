@@ -1,0 +1,31 @@
+# Ignore compiled JavaScript files
+*.js
+
+# Ignore TypeScript declaration files
+*.d.ts
+
+# Ignore TypeScript source maps
+*.js.map
+*.d.ts.map
+
+# Ignore compiled output directory (e.g., "dist" or "build")
+/dist/
+/build/
+
+# Ignore dependency directories
+/node_modules/
+/.pnp/
+/.pnp.js
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
